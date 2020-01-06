@@ -1,0 +1,11 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-image: url("../Image/7.jpg");
+    height: 630px;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+}
