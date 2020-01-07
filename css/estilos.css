@@ -52,12 +52,16 @@ nav ul{
     display: flex;
 }
 nav ul li{
+    font-size: 20px;
     padding: 10px;
     list-style: none;
 }
 nav li a{
-    color: black;
+
     text-decoration: none;
+}
+nav li a:hover{
+    color: black;
 }
 .line{
     border-style: dashed;
@@ -84,4 +88,10 @@ footer{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+}
+.texts a{
+    text-decoration: none;
+}
+.texts a:hover{
+    color:red;
 }
